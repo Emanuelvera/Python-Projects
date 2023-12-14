@@ -21,7 +21,7 @@ class MovieServices():
         return result
     
     def create_movie(self, movie:Movie):
-        new_movie = MovieModel(**movie.dict()):
+        new_movie = MovieModel(**movie.dict())
         self.db.add(new_movie)
         self.db.commit()
-        return  //// Aca quedamos ayer.
+        return  
