@@ -16,3 +16,6 @@ class Campo:
 
     def obtener_coordenada(self, borracho):
         return self.coordenadas_de_borrachos[borracho]
+
+
+        
